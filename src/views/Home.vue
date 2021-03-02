@@ -1,8 +1,11 @@
 <template>
-  <router-view />
+  Home
 </template>
 
 <script>
+export default {
+
+};
 </script>
 
 <style>
