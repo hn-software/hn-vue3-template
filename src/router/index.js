@@ -11,10 +11,12 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      name: 'home',
       component: Home
     },
     {
       path: '/:catchAll(.*)',
+      name: 'not-found',
       component: NotFound
     }
   ]
